@@ -30,7 +30,7 @@ $dischi = json_decode($fileDischi, true);
     }
 ?>
 <h2>Inserisci un nuovo film</h2>
-<form action="" method="post">
+<form action="server.php" method="post">
     <div>
         <label for="titolo">Titolo</label>
         <input id="titolo" name="titolo" type="text">        
@@ -51,6 +51,7 @@ $dischi = json_decode($fileDischi, true);
         <label for="genere">Genere</label>
         <input id="genere" name="genere" type="text">        
     </div>
+    <button type="submit">Inserisci</button>
 </form>
 </body>
 </html>
