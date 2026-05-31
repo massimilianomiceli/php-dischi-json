@@ -29,5 +29,28 @@ $dischi = json_decode($fileDischi, true);
     <?php
     }
 ?>
+<h2>Inserisci un nuovo film</h2>
+<form action="" method="post">
+    <div>
+        <label for="titolo">Titolo</label>
+        <input id="titolo" name="titolo" type="text">        
+    </div>
+        <div>
+        <label for="artista">Artista</label>
+        <input id="artista" name="artista" type="text">        
+    </div>
+        <div>
+        <label for="cover_url">Url della cover</label>
+        <input id="cover_url" name="cover_url" type="text">        
+    </div>
+        <div>
+        <label for="anno">Anno</label>
+        <input id="anno" name="anno" type="text">        
+    </div>
+        <div>
+        <label for="genere">Genere</label>
+        <input id="genere" name="genere" type="text">        
+    </div>
+</form>
 </body>
 </html>
